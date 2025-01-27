@@ -63,7 +63,7 @@ const Home = () => {
 
 
         <div className='md:w-1/2 md:mt-15 md:ml-48 order-1 mt-8'>
-        <img src={myPic} className='rounded-full md:w-[450px] md:h-[450px]' alt="" />
+        <img src={myPic} className=' rounded-full md:w-[450px] md:h-[450px] hidden md:block' alt="" />
         </div>
         </div>
     </div>
