@@ -24,7 +24,7 @@ const Home = () => {
         <h1>Hello,I am a  </h1>
         {/* <span className='text-red-700 font-bold '>Developer.</span> */}
         <ReactTyped
-        className='text-red-700 font-bold '
+        className='text-purple-800 font-bold '
           strings={["Developer.", "Coder.", "Programmer."]}
           typeSpeed={40}
           backSpeed={50}
@@ -40,11 +40,11 @@ const Home = () => {
             <div className='space-y-2'>
             <h1 className='font-bold'>Social links  </h1>
             <ul className='flex space-x-4'>
-                <li className='text-xl cursor-pointer md:text-2xl   hover:scale-110 duartion-200 '>
+                <li className='text-xl text-blue-600 cursor-pointer md:text-2xl   hover:scale-110 duartion-200 '>
                   <a href="https://www.linkedin.com/in/abhijeetgouda/" target='_blank'><FaLinkedin /></a></li>
-                <li className='text-xl cursor-pointer md:text-2xl   hover:scale-110 duartion-200'>
+                <li className='text-xl   cursor-pointer md:text-2xl   hover:scale-110 duartion-200'>
                   <a href="https://github.com/jeet120304/" target='_blank'><FaGithubSquare /></a></li>
-                <li className='text-xl cursor-pointer md:text-2xl  hover:scale-110 duartion-200'>
+                <li className='text-xl   cursor-pointer md:text-2xl  hover:scale-110 duartion-200'>
                   <a href="https://www.instagram.com/iamabhijeetgouda/ " target='_blank'><FaSquareInstagram /></a></li>
             </ul>
         </div>

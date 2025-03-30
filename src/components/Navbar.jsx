@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className='flex space-x-2  items-center'>
                 <img src={pic} alt=""  className='h-12 w-12 rounded-full'/>
                 <h2 className='font-semibold text-xl cursor-pointer'>Abhijee
-                    <span className='text-green-500 text-3xl'>t</span>
+                    <span className='text-blue-700 text-3xl'>t</span>
                 <p className='text-sm'>Web Developer</p>
                 </h2>
             </div>

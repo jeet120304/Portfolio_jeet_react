@@ -7,7 +7,7 @@ import React from 'react'
 // import node from "../../public/node.png"
 // import express from "../../public/express.png"
 // import oracle from "../../public/oracle.png"
-
+import frontend from "../../public/frontend-lab.png"
 import todo from "../../public/to-do-app.png"
 import ecommerce from "../../public/ecommerce.png"
 import milkApp from "../../public/milk-app.png"
@@ -20,10 +20,10 @@ const Projects = () => {
    const cardItem = [
     {
         id:1,
-        logo:portfolio,
-        name:"Portfolio(Reactjs)",
-        proj:"this is my portfolio..",
-        // live:'https://jeet-portfolio.vercel.app/'
+        logo:frontend,
+        name:"Frontend Labs",
+        proj:"One Platform is for Frontend interview preparation",
+        live:'https://frontend-labs-zeta.vercel.app/'
 
     },
     {
