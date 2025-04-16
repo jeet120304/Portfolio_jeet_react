@@ -40,7 +40,7 @@ const Home = () => {
             <div className='space-y-2'>
             <h1 className='font-bold'>Social links  </h1>
             <ul className='flex space-x-4'>
-                <li className='text-xl text-blue-600 cursor-pointer md:text-2xl   hover:scale-110 duartion-200 '>
+                <li className='text-xl text-white cursor-pointer md:text-2xl   hover:scale-110 duartion-200 '>
                   <a href="https://www.linkedin.com/in/abhijeetgouda/" target='_blank'><FaLinkedin /></a></li>
                 <li className='text-xl   cursor-pointer md:text-2xl   hover:scale-110 duartion-200'>
                   <a href="https://github.com/jeet120304/" target='_blank'><FaGithubSquare /></a></li>
